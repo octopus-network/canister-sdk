@@ -3,7 +3,7 @@ use formatter::FormatFn;
 use ic_exports::candid::{CandidType, Deserialize};
 use writer::{ConsoleWriter, InMemoryWriter, Logs, MultiWriter, Writer};
 
-mod formatter;
+pub mod formatter;
 mod platform;
 pub mod writer;
 
