@@ -4,7 +4,7 @@ use ic_exports::candid::{CandidType, Deserialize};
 use writer::{ConsoleWriter, InMemoryWriter, Logs, MultiWriter, Writer};
 
 pub mod formatter;
-mod platform;
+pub mod platform;
 pub mod writer;
 
 use std::cell::RefCell;
