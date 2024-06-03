@@ -33,7 +33,7 @@ use std::rc::Rc;
 use std::{fmt, io};
 
 pub mod buffer;
-mod humantime;
+pub mod humantime;
 use log::Record;
 
 use self::buffer::Buffer;
